@@ -1,0 +1,129 @@
+body {
+  font-family: sans-serif;
+  color: white;
+  background: #445971;
+  margin: 0;
+}
+
+button {
+  position: fixed;
+  right: 30px;
+  background: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  z-index: 200;
+  cursor: pointer;
+}
+
+h1 {
+  margin-left: 30px;
+  transition: .5s;
+}
+
+.h1_clicked {
+  color: #445971;
+  transition: .5s;
+}
+
+p {
+  margin-right: 200px;
+  margin-left: 30px;
+  transition: 1s;
+  transition-delay: .5s;
+}
+
+.p_clicked {
+  color: #445971;
+  transition: .5s;
+}
+
+.menu{
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  margin-left: 25%;
+  top: 0;
+  margin-top: -30%;
+  transition: .5s;
+}
+
+ul {
+  list-style: none;
+  font-size: 30pt;
+  postion: fixed;
+  display: inline-block;
+  margin-left: 40%;
+}
+
+li {
+  cursor: pointer;
+}
+
+li:hover {
+  color: silver;
+}
+
+.ul_clicked {
+  list-style: none;
+  font-size: 30pt;
+  postion: fixed;
+  display: inline-block;
+  margin-left: 40%;
+  margin-top: 30%;
+  transition: .5s;
+}
+
+.left_panel {
+  height: 100%;
+  width: 0%;
+  background: #D35400;
+  position: absolute;
+  top: 0;
+  transition: .5s;
+  transition-delay: .5s;
+}
+
+.right_panel {
+  height: 100%;
+  width: 0%;
+  align: center;
+  background: #D35400;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: .5s;
+  transition-delay: .5s;
+}
+
+.menu_clicked {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  margin-left: 25%; 
+  margin-top: 0;
+  transition: .5s;
+  transition-delay: .5s;
+  
+}
+
+.left_panel_clicked {
+  height: 100%;
+  width: 25%;
+  background: #D35400;
+  position: absolute;
+  top: 0;
+  transition: .5s;
+}
+
+.right_panel_clicked {
+  height: 100%;
+  width: 25%;
+  align: center;
+  background: #D35400;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: .5s;
+}
+
